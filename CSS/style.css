@@ -1,148 +1,172 @@
-body { 
-  background : linear-gradient(#f1faee, white);
-  font-size : 12px;
-  font-weight : normal;
-  font-family : "Roboto", sans-serif;
-  padding-top : 45px;
+body {
+  background: linear-gradient(#f1faee, white);
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  padding-top: 45px;
   display: grid;
   grid-template-rows: auto 1 auto;
   min-height: 100vh;
 }
 
 .VnavV {
-    margin : auto;
-    width : 1300px;
-}
-  
-.logo {
-    width: 100px;
-    margin-left : 100px;
-}
-  
-.navV {
-    margin-left : 800px;
-    margin-top : -30px;
-    display : flex;
-}
-  
-.nav li {
-    list-style-type : none;
-    display : inline-block;
-    margin-right : 10px;
-}
-  
-.nav a {
-    color : #1d3557;
-    font-weight : bold;
-    text-decoration : none;
-    height : 40px;
-    padding : 10px;
+  margin: auto;
+  width: 1300px;
 }
 
-h1{
-    text-align: center;
-    font-family : "Roboto";
-    font-style : normal;
-    font-weight : bold;
-    font-size : 70px;
-    color : #e63946;
+.logo {
+  width: 100px;
+  margin-left: 100px;
+}
+
+.navV {
+  margin-left: 800px;
+  margin-top: -30px;
+  display: flex;
+}
+
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav a {
+  color: #1d3557;
+  font-weight: bold;
+  text-decoration: none;
+  height: 40px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  color: #e63946;
 }
 
 .About_GIT h2 {
-    font-family : "Roboto";
-    font-style : normal;
-    font-weight : bold;
-    font-size : 20px;
-    line-height : 119px;
-    color : #1d3557;
-    text-align: center;
-    margin: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 119px;
+  color: #1d3557;
+  text-align: center;
+  margin: auto;
 }
-  
+
 .About_GIT p {
-    font-family : "Roboto";
-    font-style : normal;
-    text-align: center;
-    font-weight : 500;
-    font-size : 18px;
-    line-height : 33px;
-    width : 800px;
-    margin: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 33px;
+  width: 800px;
+  margin: auto;
 }
-  
-    .Additional {
-    width : 450px;
-    box-sizing : border-box;
-    background : #A8DADC;
-    border-radius : 20px;
-    border : #dddddd solid 1px;
-    box-shadow : 1px 1px 20px rgb(0, 0, 0, 0.08);
-    border-radius : 10px;
-    padding : 50px;
-    padding-bottom : 30px;
-    margin : 10px auto;
-    }
-  
-    .Additional img {
-    display : block;
-    margin : auto;
-    width: 100px;
-    }
-    .Additional a {
-    background : #1D3557;
-    border : #457B9D;
-    box-sizing : border-box;
-    border-radius : 50px;
-    width : 150px;
-    font-weight : bold;
-    padding-top : 15px;
-    padding-bottom : 15px;
-    text-align : center;
-    display : block;
-    margin : auto;
-    color : #F1FAEE;
-    text-decoration : none;
-    }
-  
-    .Additional h2 {
-    font-family : "Roboto";
-    font-style : normal;
-    font-weight : bold;
-    font-size : 42px;
-    line-height : 52px;
-    text-align : center;
-    }
-  
-    .Additional p {
-    font-family : "Roboto";
-    font-style : normal;
-    font-weight : bold;
-    font-size : 16px;
-    line-height : 28px;
-    text-align : center;
-    }
 
-    .AdditionalHHH{
-        margin : auto;
-        width : 930px;
-    }
-    
-    .AdditionalHHH h2{
-        font-family : "Roboto";
-    font-style : normal;
-    font-weight : bold;
-    font-size : 20px;
-    line-height : 119px;
-    color : #1d3557;
-    text-align: center;
-    margin: auto;
-    }
+.Additional {
+  width: 450px;
+  box-sizing: border-box;
+  background: #a8dadc;
+  border-radius: 20px;
+  border: #dddddd solid 1px;
+  box-shadow: 1px 1px 20px rgb(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 50px;
+  padding-bottom: 30px;
+  margin: 10px auto;
+}
 
-    .Niz {
-        margin : auto;
-        font-family : "Roboto";
-    font-style : normal;
-    font-weight : bold;
-    font-size : 16px;
-    color : #e63946;
-    }
+.Additional img {
+  display: block;
+  margin: auto;
+  width: 100px;
+}
+.Additional a {
+  background: #1d3557;
+  border: #457b9d;
+  box-sizing: border-box;
+  border-radius: 50px;
+  width: 150px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  color: #f1faee;
+  text-decoration: none;
+}
+
+.Additional h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.Additional p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.AdditionalHHH {
+  margin: auto;
+  width: 930px;
+}
+
+.AdditionalHHH h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 119px;
+  color: #1d3557;
+  text-align: center;
+  margin: auto;
+}
+
+.Niz {
+  margin: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #1d3557;
+}
+
+.OTH {
+    margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.OTH input {
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 10px;
+  border: #ffffff solid;
+  box-shadow: 1px 1px 20px rgb(0, 0, 0, 0.08);
+  padding-left: 20px;
+  height: 55px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  outline: none;
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
